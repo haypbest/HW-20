@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-img {
+    margin-right: 152px;
+}
+.header {
+    background-color: #012D63;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 168px;
+}
+.header-nav {
+    margin-right: 73px;
+}
+.nav-list {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 29px;
+    text-decoration: none;
+}
+.ul-section{
+    color: white;
+}
+.languages {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.section-img {
+    padding-left: 171px;
+}
+.section1 {
+    background-image: url(./Group\ 37\ \(1\)\ 1\ \(1\).png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
