@@ -27,6 +27,19 @@ a {
     display: flex;
     align-items: center;
 }
+.nav-link{ 
+    /* Main page */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+
+
+}
 .nav-list {
     display: flex;
     align-items: center;
@@ -36,10 +49,25 @@ a {
     text-decoration: none;
 }
 
-.languages {
+.languanes {
     display: flex;
     align-items: center;
     text-decoration: none;
+    
+        
+}
+.languanes-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+
+color: #DCDCDC;
+}
+
+.languaenes-item:not(:last-child) {
+    margin-right: 10px;
 }
 .section-img {
     height: 120px;
@@ -48,7 +76,7 @@ a {
 .section1 {
     background-image: url(./Group\ 37\ \(1\)\ 1\ \(1\).png);
     background-size: cover;
-    height: 800px;
+    height: 1000px;
     color: aliceblue;
     padding-top: 94px;
     padding-bottom: 183px;
@@ -114,8 +142,9 @@ color: #FFFFFF;
 .sec-sec {
     background-image: url(./Group\ 8\ 1.png);
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px 0;
 }
 .h3-sec {
 font-family: 'Playfair Display';
