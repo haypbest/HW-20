@@ -24,31 +24,439 @@ a {
 }
 .header-nav {
     margin-right: 73px;
+    display: flex;
+    align-items: center;
 }
 .nav-list {
     display: flex;
-    color: white;
     align-items: center;
 }
 .nav-item{
     margin-right: 29px;
     text-decoration: none;
 }
-.ul-section{
-    color: white;
-}
+
 .languages {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 .section-img {
-    padding-left: 171px;
+    height: 120px;
+    width: 160px;
 }
 .section1 {
     background-image: url(./Group\ 37\ \(1\)\ 1\ \(1\).png);
     background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
+    height: 800px;
+    color: aliceblue;
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
+.sec-p {
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 50px;
+margin-bottom: 10px;
+
+color: #FFFFFF;
+
+
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+.button {
+    display: block;
+    width: 254px;
+    padding: 20px 61px;
+    border-radius: 10px;
+    background: rgb(142, 50, 198);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.section-h1 {
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 144px;
+line-height: 100px;
+color: #FFFFFF;
+margin-bottom: 8px;
+
+
+}
+.section-h3 {
+    padding-top: 8px;
+    font-size: 4rem;
+    margin-bottom: 12px;
+}
+.section-p {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 43px;
+color: #FFFFFF;
+}
+
+.sec-sec {
+    background-image: url(./Group\ 8\ 1.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h3-sec {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.div-sec {
+    width: 1185px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 606px;
+}
+.ul-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(142, 50, 198);
+    padding: 25px 50px;
+}
+.h3-sec {
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display"; 
+    font-size: 36px; 
+    font-weight: 400; 
+    line-height: 48px; 
+    text-align: center;
+}
+.reviews {
+    padding-top: 24px;
+    padding-bottom: 114px;
+  
+    background-image: url(./цветы\ 2\ 1.png), url(./Group\ 6\ 1.png);
+    background-position: left, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    
+  
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+.reviews-heading {
+    /* Reviews */
+  
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+  
+    /* margin: 0 auto; */
+  
+    margin-bottom: 24px;
+  
+    color: #ffffff;
+  }
+  
+  .reviews-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reviews-item:first-child {
+    background: linear-gradient(
+      137deg,
+      #00e5e6 7.29%,
+      #00a8f7 26.04%,
+      #9a76f9 62.5%,
+      #cc5ec2 100%
+    );
+    box-shadow: 0px 14px 0px -5px rgb(123, 84, 179),
+      0px 30px 0px -10px rgb(83, 57, 120);
+  }
+  .reviews-item {
+    padding: 49px 14px 30px 13px;
+    width: 255px;
+  
+    background: linear-gradient(
+      137deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+    box-shadow: 0px 14px 0px -5px rgb(145, 89, 177),
+      0px 30px 0px -10px rgb(97, 51, 124);
+  
+    border-radius: 15px;
+  }
+  
+  .reviews-item:last-child {
+    background: linear-gradient(
+      143deg,
+      #ffe128 0%,
+      #ff9b5c 30.21%,
+      #ff8381 63.29%,
+      #ff5489 100%
+    );
+    box-shadow: 0px 14px 0px -5px rgb(185, 90, 76),
+      0px 30px 0px -10px rgb(115, 47, 38);
+  }
+  
+  .reviews-item:not(:last-child) {
+    margin-right: 93px;
+  }
+  .reviews-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #ffffff;
+  
+    margin-bottom: 10px;
+  }
+  
+  .reviews-date {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  
+    color: #d8d8d8;
+  
+    margin-bottom: 47px;
+  }
+  
+  .review-content-block {
+    display: flex;
+  }
+  
+  .review-person-block {
+    margin-left: 5px;
+  }
+
+  .order {
+    padding-top: 20px;
+    padding-bottom: 37px;
+  
+    background-image: url(./Group\ 2\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .order-heading {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+  
+    text-align: center;
+  
+    color: #ffffff;
+  
+    margin-bottom: 33px;
+  }
+  
+  .order-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .order-input {
+    display: block;
+    width: 580px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  
+    padding: 13px 25px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+  
+    color: #959595;
+  }
+  
+  .order-biginput-wrapper {
+    position: relative;
+  }
+  
+  .order-input-big {
+    width: 690px;
+  }
+  
+  .order-confirm {
+    position: absolute;
+    top: 13px;
+    right: 78px;
+    color: rgb(141, 141, 141);
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+  
+  .order-input::placeholder {
+   
+  }
+  
+  .order-button {
+    padding: 20px 50px;
+    border-radius: 16px;
+  
+    background-color: rgb(142, 50, 198);
+  
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .footer {
+    background-color: #021635;
+    height: 250px;
+   }
+   .ul-footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding-top:  20px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    padding-bottom: 12px;
+   }
+   .footer-items {
+    color: white;
+    margin-top: 6px;
+   }
+   .second-li-items {
+    color: white;
+    text-decoration: underline;
+   }
+   .footer-p {
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .matvey {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .imglogo-footer {
+    width: 100px;
+    height: 70px;
+    margin-top: -8px;
+   }
+   .footer-p:first-child {
+    padding-bottom: 6px;
+   }
+   .have:hover {
+    background: linear-gradient(
+      137deg,
+      #00e5e6 7.29%,
+      #00a8f7 26.04%,
+      #9a76f9 62.5%,
+      #cc5ec2 100%
+    );
+   }
+   .have-a:hover {
+    background: linear-gradient(
+      137deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+   }
+   .adve:hover {
+    background: linear-gradient(
+       143deg,
+       #ffe128 0%,
+       #ff9b5c 30.21%,
+       #ff8381 63.29%,
+       #ff5489 100%
+     );
+   }
+   .firstonly:hover {
+    background: linear-gradient(
+      137deg,
+      #00e5e6 7.29%,
+      #00a8f7 26.04%,
+      #9a76f9 62.5%,
+      #cc5ec2 100%
+    );
+   }
+   .secondonly:hover {
+    background: linear-gradient(
+      137deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+   }
+   .thirdonly:hover {
+    background: linear-gradient(
+      143deg,
+      #ffe128 0%,
+      #ff9b5c 30.21%,
+      #ff8381 63.29%,
+      #ff5489 100%
+    );
+   }
+  #id-one:hover {
+    background: linear-gradient(
+      137deg,
+      #00e5e6 7.29%,
+      #00a8f7 26.04%,
+      #9a76f9 62.5%,
+      #cc5ec2 100%
+    );
+  }
+  #id-two:hover {
+    background: linear-gradient(
+      137deg,
+      #ff68b4 0%,
+      #ff45e1 26.04%,
+      #ce3aff 62.84%,
+      #8961ff 100%
+    );
+  }
+  
